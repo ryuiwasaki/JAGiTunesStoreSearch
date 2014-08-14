@@ -1,0 +1,27 @@
+PODS:
+  - JAGMultiThreadOperation (1.0.2)
+  - JAGSerialize (1.0.1)
+  - JAGTableViewController (1.0.0):
+    - JAGSerialize
+  - Reachability (3.1.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - SVProgressHUD (1.0)
+
+DEPENDENCIES:
+  - JAGMultiThreadOperation
+  - JAGTableViewController
+  - Reachability
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  JAGMultiThreadOperation: a6b36e5392f5e21ef0e32f03274088597a53a8c2
+  JAGSerialize: 2cd51fc20a746db93d7375f4bba502f3e3149189
+  JAGTableViewController: 4af3e49d11b74454fc4e7d7eb38fb4938aefbf00
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+
+COCOAPODS: 0.33.1

@@ -1,0 +1,1 @@
+../../JAGSerialize/JAGSerialize/NSObject+JAGSerialize.h

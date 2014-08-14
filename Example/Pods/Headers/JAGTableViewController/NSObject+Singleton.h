@@ -1,0 +1,1 @@
+../../JAGTableViewController/Classes/iOS/NSObject+Singleton.h

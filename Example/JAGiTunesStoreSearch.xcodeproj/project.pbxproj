@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EC19D4097E64499B62AA647 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658203A457794302B9FD0CA0 /* libPods.a */; };
+		A829E238199C9C7C00F65A17 /* JAGiTunesStoreSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A829E233199C9C7C00F65A17 /* JAGiTunesStoreSearch.m */; };
+		A829E239199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A829E234199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard */; };
+		A829E23A199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A829E236199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m */; };
+		A8826057199C915100B5026B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826056199C915100B5026B /* Foundation.framework */; };
+		A8826059199C915100B5026B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826058199C915100B5026B /* CoreGraphics.framework */; };
+		A882605B199C915100B5026B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882605A199C915100B5026B /* UIKit.framework */; };
+		A8826061199C915100B5026B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A882605F199C915100B5026B /* InfoPlist.strings */; };
+		A8826063199C915100B5026B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8826062199C915100B5026B /* main.m */; };
+		A8826067199C915100B5026B /* JAGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8826066199C915100B5026B /* JAGAppDelegate.m */; };
+		A882606A199C915100B5026B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8826068199C915100B5026B /* Main.storyboard */; };
+		A882606D199C915100B5026B /* JAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882606C199C915100B5026B /* JAGViewController.m */; };
+		A882606F199C915100B5026B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A882606E199C915100B5026B /* Images.xcassets */; };
+		A8826076199C915100B5026B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826075199C915100B5026B /* XCTest.framework */; };
+		A8826077199C915100B5026B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826056199C915100B5026B /* Foundation.framework */; };
+		A8826078199C915100B5026B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882605A199C915100B5026B /* UIKit.framework */; };
+		A8826080199C915100B5026B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A882607E199C915100B5026B /* InfoPlist.strings */; };
+		A8826082199C915100B5026B /* JAGiTunesStoreSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8826081199C915100B5026B /* JAGiTunesStoreSearchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8826079199C915100B5026B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A882604B199C915100B5026B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8826052199C915100B5026B;
+			remoteInfo = JAGiTunesStoreSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DEC8D4BD35945C394583F93 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		658203A457794302B9FD0CA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A829E232199C9C7C00F65A17 /* JAGiTunesStoreSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGiTunesStoreSearch.h; sourceTree = "<group>"; };
+		A829E233199C9C7C00F65A17 /* JAGiTunesStoreSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearch.m; sourceTree = "<group>"; };
+		A829E234199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JAGiTunesStoreSearchResult.storyboard; sourceTree = "<group>"; };
+		A829E235199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGiTunesStoreSearchResultsViewController.h; sourceTree = "<group>"; };
+		A829E236199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearchResultsViewController.m; sourceTree = "<group>"; };
+		A8826053199C915100B5026B /* JAGiTunesStoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAGiTunesStoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8826056199C915100B5026B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8826058199C915100B5026B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A882605A199C915100B5026B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A882605E199C915100B5026B /* JAGiTunesStoreSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAGiTunesStoreSearch-Info.plist"; sourceTree = "<group>"; };
+		A8826060199C915100B5026B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8826062199C915100B5026B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8826064199C915100B5026B /* JAGiTunesStoreSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAGiTunesStoreSearch-Prefix.pch"; sourceTree = "<group>"; };
+		A8826065199C915100B5026B /* JAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAGAppDelegate.h; sourceTree = "<group>"; };
+		A8826066199C915100B5026B /* JAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGAppDelegate.m; sourceTree = "<group>"; };
+		A8826069199C915100B5026B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A882606B199C915100B5026B /* JAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAGViewController.h; sourceTree = "<group>"; };
+		A882606C199C915100B5026B /* JAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGViewController.m; sourceTree = "<group>"; };
+		A882606E199C915100B5026B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8826074199C915100B5026B /* JAGiTunesStoreSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAGiTunesStoreSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8826075199C915100B5026B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A882607D199C915100B5026B /* JAGiTunesStoreSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAGiTunesStoreSearchTests-Info.plist"; sourceTree = "<group>"; };
+		A882607F199C915100B5026B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8826081199C915100B5026B /* JAGiTunesStoreSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8826050199C915100B5026B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8826059199C915100B5026B /* CoreGraphics.framework in Frameworks */,
+				A882605B199C915100B5026B /* UIKit.framework in Frameworks */,
+				A8826057199C915100B5026B /* Foundation.framework in Frameworks */,
+				2EC19D4097E64499B62AA647 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8826071199C915100B5026B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8826076199C915100B5026B /* XCTest.framework in Frameworks */,
+				A8826078199C915100B5026B /* UIKit.framework in Frameworks */,
+				A8826077199C915100B5026B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A829E230199C9C7C00F65A17 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A829E232199C9C7C00F65A17 /* JAGiTunesStoreSearch.h */,
+				A829E233199C9C7C00F65A17 /* JAGiTunesStoreSearch.m */,
+				A829E234199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard */,
+				A829E235199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.h */,
+				A829E236199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A882604A199C915100B5026B = {
+			isa = PBXGroup;
+			children = (
+				A882605C199C915100B5026B /* JAGiTunesStoreSearch */,
+				A882607B199C915100B5026B /* JAGiTunesStoreSearchTests */,
+				A8826055199C915100B5026B /* Frameworks */,
+				A8826054199C915100B5026B /* Products */,
+				0DEC8D4BD35945C394583F93 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A8826054199C915100B5026B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8826053199C915100B5026B /* JAGiTunesStoreSearch.app */,
+				A8826074199C915100B5026B /* JAGiTunesStoreSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8826055199C915100B5026B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8826056199C915100B5026B /* Foundation.framework */,
+				A8826058199C915100B5026B /* CoreGraphics.framework */,
+				A882605A199C915100B5026B /* UIKit.framework */,
+				A8826075199C915100B5026B /* XCTest.framework */,
+				658203A457794302B9FD0CA0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A882605C199C915100B5026B /* JAGiTunesStoreSearch */ = {
+			isa = PBXGroup;
+			children = (
+				A829E230199C9C7C00F65A17 /* Classes */,
+				A8826065199C915100B5026B /* JAGAppDelegate.h */,
+				A8826066199C915100B5026B /* JAGAppDelegate.m */,
+				A8826068199C915100B5026B /* Main.storyboard */,
+				A882606B199C915100B5026B /* JAGViewController.h */,
+				A882606C199C915100B5026B /* JAGViewController.m */,
+				A882606E199C915100B5026B /* Images.xcassets */,
+				A882605D199C915100B5026B /* Supporting Files */,
+			);
+			path = JAGiTunesStoreSearch;
+			sourceTree = "<group>";
+		};
+		A882605D199C915100B5026B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A882605E199C915100B5026B /* JAGiTunesStoreSearch-Info.plist */,
+				A882605F199C915100B5026B /* InfoPlist.strings */,
+				A8826062199C915100B5026B /* main.m */,
+				A8826064199C915100B5026B /* JAGiTunesStoreSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A882607B199C915100B5026B /* JAGiTunesStoreSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8826081199C915100B5026B /* JAGiTunesStoreSearchTests.m */,
+				A882607C199C915100B5026B /* Supporting Files */,
+			);
+			path = JAGiTunesStoreSearchTests;
+			sourceTree = "<group>";
+		};
+		A882607C199C915100B5026B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A882607D199C915100B5026B /* JAGiTunesStoreSearchTests-Info.plist */,
+				A882607E199C915100B5026B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8826052199C915100B5026B /* JAGiTunesStoreSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8826085199C915100B5026B /* Build configuration list for PBXNativeTarget "JAGiTunesStoreSearch" */;
+			buildPhases = (
+				DB0F1221F0D24F1785BF1997 /* Check Pods Manifest.lock */,
+				A882604F199C915100B5026B /* Sources */,
+				A8826050199C915100B5026B /* Frameworks */,
+				A8826051199C915100B5026B /* Resources */,
+				1A25A4D71FCD4DFDA5EFC895 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAGiTunesStoreSearch;
+			productName = JAGiTunesStoreSearch;
+			productReference = A8826053199C915100B5026B /* JAGiTunesStoreSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8826073199C915100B5026B /* JAGiTunesStoreSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8826088199C915100B5026B /* Build configuration list for PBXNativeTarget "JAGiTunesStoreSearchTests" */;
+			buildPhases = (
+				A8826070199C915100B5026B /* Sources */,
+				A8826071199C915100B5026B /* Frameworks */,
+				A8826072199C915100B5026B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A882607A199C915100B5026B /* PBXTargetDependency */,
+			);
+			name = JAGiTunesStoreSearchTests;
+			productName = JAGiTunesStoreSearchTests;
+			productReference = A8826074199C915100B5026B /* JAGiTunesStoreSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A882604B199C915100B5026B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryu Iwasaki";
+				TargetAttributes = {
+					A8826073199C915100B5026B = {
+						TestTargetID = A8826052199C915100B5026B;
+					};
+				};
+			};
+			buildConfigurationList = A882604E199C915100B5026B /* Build configuration list for PBXProject "JAGiTunesStoreSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A882604A199C915100B5026B;
+			productRefGroup = A8826054199C915100B5026B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8826052199C915100B5026B /* JAGiTunesStoreSearch */,
+				A8826073199C915100B5026B /* JAGiTunesStoreSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8826051199C915100B5026B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A882606F199C915100B5026B /* Images.xcassets in Resources */,
+				A8826061199C915100B5026B /* InfoPlist.strings in Resources */,
+				A882606A199C915100B5026B /* Main.storyboard in Resources */,
+				A829E239199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8826072199C915100B5026B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8826080199C915100B5026B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A25A4D71FCD4DFDA5EFC895 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0F1221F0D24F1785BF1997 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A882604F199C915100B5026B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A829E23A199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m in Sources */,
+				A8826063199C915100B5026B /* main.m in Sources */,
+				A882606D199C915100B5026B /* JAGViewController.m in Sources */,
+				A829E238199C9C7C00F65A17 /* JAGiTunesStoreSearch.m in Sources */,
+				A8826067199C915100B5026B /* JAGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8826070199C915100B5026B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8826082199C915100B5026B /* JAGiTunesStoreSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A882607A199C915100B5026B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8826052199C915100B5026B /* JAGiTunesStoreSearch */;
+			targetProxy = A8826079199C915100B5026B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A882605F199C915100B5026B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8826060199C915100B5026B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8826068199C915100B5026B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8826069199C915100B5026B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A882607E199C915100B5026B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A882607F199C915100B5026B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8826083199C915100B5026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8826084199C915100B5026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8826086199C915100B5026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEC8D4BD35945C394583F93 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGiTunesStoreSearch/JAGiTunesStoreSearch-Prefix.pch";
+				INFOPLIST_FILE = "JAGiTunesStoreSearch/JAGiTunesStoreSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8826087199C915100B5026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEC8D4BD35945C394583F93 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGiTunesStoreSearch/JAGiTunesStoreSearch-Prefix.pch";
+				INFOPLIST_FILE = "JAGiTunesStoreSearch/JAGiTunesStoreSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8826089199C915100B5026B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAGiTunesStoreSearch.app/JAGiTunesStoreSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGiTunesStoreSearch/JAGiTunesStoreSearch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JAGiTunesStoreSearchTests/JAGiTunesStoreSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A882608A199C915100B5026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JAGiTunesStoreSearch.app/JAGiTunesStoreSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAGiTunesStoreSearch/JAGiTunesStoreSearch-Prefix.pch";
+				INFOPLIST_FILE = "JAGiTunesStoreSearchTests/JAGiTunesStoreSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A882604E199C915100B5026B /* Build configuration list for PBXProject "JAGiTunesStoreSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8826083199C915100B5026B /* Debug */,
+				A8826084199C915100B5026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8826085199C915100B5026B /* Build configuration list for PBXNativeTarget "JAGiTunesStoreSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8826086199C915100B5026B /* Debug */,
+				A8826087199C915100B5026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8826088199C915100B5026B /* Build configuration list for PBXNativeTarget "JAGiTunesStoreSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8826089199C915100B5026B /* Debug */,
+				A882608A199C915100B5026B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A882604B199C915100B5026B /* Project object */;
+}

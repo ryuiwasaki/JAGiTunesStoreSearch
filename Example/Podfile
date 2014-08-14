@@ -1,0 +1,6 @@
+platform :ios,'8.0'
+pod 'Reachability'
+pod 'SVProgressHUD'
+pod 'SDWebImage'
+pod 'JAGTableViewController'
+pod 'JAGMultiThreadOperation'
