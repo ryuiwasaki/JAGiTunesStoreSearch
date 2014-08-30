@@ -8,12 +8,17 @@
 
 #import "JAGMultiThreadOperation.h"
 
-@interface JAGMultiThreadOperation ()
+@interface JAGMultiThreadOperation (){
+    BOOL _ready;
+    BOOL _executing;
+    BOOL _finished;
+    BOOL _cancelled;
+}
 
-@property (nonatomic) BOOL ready;
-@property (nonatomic) BOOL executing;
-@property (nonatomic) BOOL finished;
-@property (nonatomic) BOOL cancelled;
+@property (nonatomic)BOOL ready;
+@property (nonatomic)BOOL executing;
+@property (nonatomic)BOOL finished;
+@property (nonatomic)BOOL cancelled;
 
 @end
 

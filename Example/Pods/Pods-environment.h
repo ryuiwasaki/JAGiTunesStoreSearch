@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_JAGMultiThreadOperation
 #define COCOAPODS_VERSION_MAJOR_JAGMultiThreadOperation 1
 #define COCOAPODS_VERSION_MINOR_JAGMultiThreadOperation 0
-#define COCOAPODS_VERSION_PATCH_JAGMultiThreadOperation 2
+#define COCOAPODS_VERSION_PATCH_JAGMultiThreadOperation 3
 
 // JAGSerialize
 #define COCOAPODS_POD_AVAILABLE_JAGSerialize

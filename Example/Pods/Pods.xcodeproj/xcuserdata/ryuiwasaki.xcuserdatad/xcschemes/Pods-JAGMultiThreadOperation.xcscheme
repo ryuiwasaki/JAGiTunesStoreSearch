@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2444BEB3670F464587AC22F4"
+               BlueprintIdentifier = "B2CF3563584B4C43A0567097"
                BuildableName = "libPods-JAGMultiThreadOperation.a"
                BlueprintName = "Pods-JAGMultiThreadOperation"
                ReferencedContainer = "container:Pods.xcodeproj">

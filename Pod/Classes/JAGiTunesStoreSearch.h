@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <JAGMultiThreadOperation/JAGMultiThreadOperation.h>
+#import "JAGMultiThreadOperation.h"
 
 typedef NS_ENUM( int, iTunesSearchEntity){
     

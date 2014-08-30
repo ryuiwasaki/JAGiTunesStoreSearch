@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4D7191914E6408F8F71AA7F"
+               BlueprintIdentifier = "742408D07FBF4BD0908D866B"
                BuildableName = "libPods-JAGSerialize.a"
                BlueprintName = "Pods-JAGSerialize"
                ReferencedContainer = "container:Pods.xcodeproj">

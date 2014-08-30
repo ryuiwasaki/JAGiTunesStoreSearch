@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "74BA53CFF13F44929D3F48C2"
+               BlueprintIdentifier = "F68129DC7E9A429AA7C60696"
                BuildableName = "libPods-JAGTableViewController.a"
                BlueprintName = "Pods-JAGTableViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

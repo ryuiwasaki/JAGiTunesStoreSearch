@@ -178,6 +178,7 @@
                         <outlet property="descriptionTitleLabel" destination="zzg-wg-dqr" id="Zp3-tW-XOn"/>
                         <outlet property="developerNameLabel" destination="zn0-Ca-nbH" id="5oU-c2-ryV"/>
                         <outlet property="developerTitleLabel" destination="JSs-Vk-ri6" id="rEc-Jl-uJ9"/>
+                        <outlet property="doneButton" destination="0HL-Nw-twg" id="dpi-Ou-SQs"/>
                         <outlet property="iconImageView" destination="rRG-AS-1Zn" id="nUO-lH-13t"/>
                         <outlet property="itemNameLabel" destination="Hb0-i6-Iik" id="zWs-GM-utm"/>
                         <outlet property="priceLabel" destination="1eU-UF-h7W" id="okU-tO-tnk"/>
@@ -185,6 +186,11 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nri-7P-Ahf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem systemItem="done" id="0HL-Nw-twg">
+                    <connections>
+                        <action selector="pushDone:" destination="ErL-0S-KYc" id="Et5-H2-wcn"/>
+                    </connections>
+                </barButtonItem>
             </objects>
             <point key="canvasLocation" x="1492" y="563"/>
         </scene>

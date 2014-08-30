@@ -1,5 +1,5 @@
 PODS:
-  - JAGMultiThreadOperation (1.0.2)
+  - JAGMultiThreadOperation (1.0.3)
   - JAGSerialize (1.0.1)
   - JAGTableViewController (1.0.0):
     - JAGSerialize
@@ -17,7 +17,7 @@ DEPENDENCIES:
   - SVProgressHUD
 
 SPEC CHECKSUMS:
-  JAGMultiThreadOperation: a6b36e5392f5e21ef0e32f03274088597a53a8c2
+  JAGMultiThreadOperation: 11dc7bcb951ac24a605a55f39405ecd05737fd34
   JAGSerialize: 2cd51fc20a746db93d7375f4bba502f3e3149189
   JAGTableViewController: 4af3e49d11b74454fc4e7d7eb38fb4938aefbf00
   Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7

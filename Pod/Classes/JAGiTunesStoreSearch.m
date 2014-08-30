@@ -7,7 +7,6 @@
 //
 
 #import "JAGiTunesStoreSearch.h"
-
 static NSString *kItunesSearchAPI_Lookup = @"https://itunes.apple.com/lookup";
 static NSString *kItunesSearchAPI_Search = @"https://itunes.apple.com/search";
 
@@ -529,7 +528,7 @@ static NSString *kItunesSearchAPI_Search = @"https://itunes.apple.com/search";
 }
 
 - (NSString *)descriptionStr{
-    return [NSString stringWithFormat:@"%@",_json[@"descriptionStr"]];
+    return [NSString stringWithFormat:@"%@",_json[@"description"]];
 }
 
 - (NSString *)features{

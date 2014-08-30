@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2EC19D4097E64499B62AA647 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658203A457794302B9FD0CA0 /* libPods.a */; };
-		A829E238199C9C7C00F65A17 /* JAGiTunesStoreSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A829E233199C9C7C00F65A17 /* JAGiTunesStoreSearch.m */; };
-		A829E239199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A829E234199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard */; };
-		A829E23A199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A829E236199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m */; };
+		A869E6B019B1B45A005858C8 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A869E6AA19B1B45A005858C8 /* .gitkeep */; };
+		A869E6B119B1B45A005858C8 /* JAGiTunesStoreSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A869E6AC19B1B45A005858C8 /* JAGiTunesStoreSearch.m */; };
+		A869E6B219B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A869E6AD19B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard */; };
+		A869E6B319B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A869E6AF19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m */; };
+		A869E6B619B1B582005858C8 /* SearchKeywordsInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A869E6B519B1B582005858C8 /* SearchKeywordsInputViewController.m */; };
 		A8826057199C915100B5026B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826056199C915100B5026B /* Foundation.framework */; };
 		A8826059199C915100B5026B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826058199C915100B5026B /* CoreGraphics.framework */; };
 		A882605B199C915100B5026B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882605A199C915100B5026B /* UIKit.framework */; };
@@ -40,11 +42,14 @@
 /* Begin PBXFileReference section */
 		0DEC8D4BD35945C394583F93 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		658203A457794302B9FD0CA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A829E232199C9C7C00F65A17 /* JAGiTunesStoreSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGiTunesStoreSearch.h; sourceTree = "<group>"; };
-		A829E233199C9C7C00F65A17 /* JAGiTunesStoreSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearch.m; sourceTree = "<group>"; };
-		A829E234199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JAGiTunesStoreSearchResult.storyboard; sourceTree = "<group>"; };
-		A829E235199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGiTunesStoreSearchResultsViewController.h; sourceTree = "<group>"; };
-		A829E236199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearchResultsViewController.m; sourceTree = "<group>"; };
+		A869E6AA19B1B45A005858C8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		A869E6AB19B1B45A005858C8 /* JAGiTunesStoreSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGiTunesStoreSearch.h; sourceTree = "<group>"; };
+		A869E6AC19B1B45A005858C8 /* JAGiTunesStoreSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearch.m; sourceTree = "<group>"; };
+		A869E6AD19B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JAGiTunesStoreSearchResult.storyboard; sourceTree = "<group>"; };
+		A869E6AE19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGiTunesStoreSearchResultsViewController.h; sourceTree = "<group>"; };
+		A869E6AF19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearchResultsViewController.m; sourceTree = "<group>"; };
+		A869E6B419B1B582005858C8 /* SearchKeywordsInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchKeywordsInputViewController.h; sourceTree = "<group>"; };
+		A869E6B519B1B582005858C8 /* SearchKeywordsInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchKeywordsInputViewController.m; sourceTree = "<group>"; };
 		A8826053199C915100B5026B /* JAGiTunesStoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAGiTunesStoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8826056199C915100B5026B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8826058199C915100B5026B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,16 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A829E230199C9C7C00F65A17 /* Classes */ = {
+		A869E6A919B1B45A005858C8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A829E232199C9C7C00F65A17 /* JAGiTunesStoreSearch.h */,
-				A829E233199C9C7C00F65A17 /* JAGiTunesStoreSearch.m */,
-				A829E234199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard */,
-				A829E235199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.h */,
-				A829E236199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m */,
+				A869E6AA19B1B45A005858C8 /* .gitkeep */,
+				A869E6AB19B1B45A005858C8 /* JAGiTunesStoreSearch.h */,
+				A869E6AC19B1B45A005858C8 /* JAGiTunesStoreSearch.m */,
+				A869E6AD19B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard */,
+				A869E6AE19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.h */,
+				A869E6AF19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m */,
+				A869E6B419B1B582005858C8 /* SearchKeywordsInputViewController.h */,
+				A869E6B519B1B582005858C8 /* SearchKeywordsInputViewController.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../Pod/Classes;
 			sourceTree = "<group>";
 		};
 		A882604A199C915100B5026B = {
@@ -138,7 +147,7 @@
 		A882605C199C915100B5026B /* JAGiTunesStoreSearch */ = {
 			isa = PBXGroup;
 			children = (
-				A829E230199C9C7C00F65A17 /* Classes */,
+				A869E6A919B1B45A005858C8 /* Classes */,
 				A8826065199C915100B5026B /* JAGAppDelegate.h */,
 				A8826066199C915100B5026B /* JAGAppDelegate.m */,
 				A8826068199C915100B5026B /* Main.storyboard */,
@@ -261,7 +270,8 @@
 				A882606F199C915100B5026B /* Images.xcassets in Resources */,
 				A8826061199C915100B5026B /* InfoPlist.strings in Resources */,
 				A882606A199C915100B5026B /* Main.storyboard in Resources */,
-				A829E239199C9C7C00F65A17 /* JAGiTunesStoreSearchResult.storyboard in Resources */,
+				A869E6B219B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard in Resources */,
+				A869E6B019B1B45A005858C8 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,10 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A829E23A199C9C7C00F65A17 /* JAGiTunesStoreSearchResultsViewController.m in Sources */,
+				A869E6B319B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m in Sources */,
 				A8826063199C915100B5026B /* main.m in Sources */,
 				A882606D199C915100B5026B /* JAGViewController.m in Sources */,
-				A829E238199C9C7C00F65A17 /* JAGiTunesStoreSearch.m in Sources */,
+				A869E6B619B1B582005858C8 /* SearchKeywordsInputViewController.m in Sources */,
+				A869E6B119B1B45A005858C8 /* JAGiTunesStoreSearch.m in Sources */,
 				A8826067199C915100B5026B /* JAGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

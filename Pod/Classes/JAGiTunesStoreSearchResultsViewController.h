@@ -7,24 +7,53 @@
 //
 
 #import "JAGTableViewController.h"
+
 @class JAGiTunesStoreSearchResultItem;
 @class JAGiTunesStoreSearch;
 @class JAGiTunesStoreSearchResultsNavigationController;
-@protocol JAGiTunesStoreSearchResultsNavigationControllerDelegate;
+
+@protocol JAGiTunesStoreSearchResultsNavigationDelegate;
 
 @interface JAGiTunesStoreSearchResultsViewController : JAGTableViewController
 
 + (JAGiTunesStoreSearchResultsNavigationController *)navigationController;
 + (JAGiTunesStoreSearchResultsNavigationController *)navigationControllerForSearch:(JAGiTunesStoreSearch *)search;
 
-@property (nonatomic,weak) id < UINavigationControllerDelegate , JAGiTunesStoreSearchResultsNavigationControllerDelegate > delegate;
++ (instancetype)createForSearch:(JAGiTunesStoreSearch *)search;
+
+@property (nonatomic,weak) id < UINavigationControllerDelegate , JAGiTunesStoreSearchResultsNavigationDelegate > delegate;
 
 @property (nonatomic) int32_t offset;
 @property (nonatomic) int32_t limit;
 
 @end
 
-@protocol JAGiTunesStoreSearchResultsNavigationControllerDelegate
+@interface JAGiTunesStoreSearchResultsDetailViewController : UITableViewController
+
+@property (nonatomic,weak) id < UINavigationControllerDelegate , JAGiTunesStoreSearchResultsNavigationDelegate > delegate;
+@property (nonatomic) JAGiTunesStoreSearchResultItem *selectedItem;
+
+@end
+
+@interface JAGiTunesStoreSearchResultsNavigationController : UINavigationController
+
+@property (nonatomic,weak) id < UINavigationControllerDelegate , JAGiTunesStoreSearchResultsNavigationDelegate > delegate;
+
+@end
+
+@interface JAGSearchKeywordsInputViewController : UITableViewController
+
++ (JAGSearchKeywordsInputViewController *)searchKeywordsInputViewController;
+
+@property (nonatomic,weak) id < UINavigationControllerDelegate , JAGiTunesStoreSearchResultsNavigationDelegate > delegate;
+
+@property (nonatomic,copy) void(^didStartSearch)(NSString *inpuKeywords,UIViewController *vc);
+@property (nonatomic,copy) void(^didCancelInput)(JAGSearchKeywordsInputViewController *vc);
+
+@end
+
+
+@protocol JAGiTunesStoreSearchResultsNavigationDelegate
 
 @optional
 // First Layer
@@ -35,8 +64,3 @@
 
 @end
 
-@interface JAGiTunesStoreSearchResultsNavigationController : UINavigationController
-
-@property (nonatomic,weak) id < UINavigationControllerDelegate , JAGiTunesStoreSearchResultsNavigationControllerDelegate > delegate;
-
-@end

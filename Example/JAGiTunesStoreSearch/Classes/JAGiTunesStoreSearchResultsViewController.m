@@ -141,7 +141,7 @@
     if ([_delegate respondsToSelector:@selector(searchResultsViewController:didSelectSearchResult:iconImage:)]) {
         
         JAGiTunesStoreSearchResultItem *item = [_dataSource itemWithIndexPath:indexPath];
-        [_delegate searchResultsViewController:self didSelectSearchResult:item iconImage:nil];
+        [_delegate searchResultsViewController:self didSelectSearchResult:item iconImage:[[SDWebImageManager sharedManager].imageCache imageFromDiskCacheForKey:item.artworkUrl100]];
         
     } else {
         
@@ -209,6 +209,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *descriptionTitleLabel;
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *doneButton;
 
 @end
 
@@ -217,6 +218,8 @@
 - (void)viewDidLoad{
     
     [super viewDidLoad];
+    
+    self.navigationItem.rightBarButtonItems = @[self.doneButton];
     
     [_iconImageView sd_setImageWithURL:[NSURL URLWithString:_selectedItem.artworkUrl512] placeholderImage:nil options:SDWebImageContinueInBackground progress:^(NSInteger receivedSize, NSInteger expectedSize) {
         
@@ -237,6 +240,18 @@
     _developerNameLabel.text = _selectedItem.artistName;
     _descriptionTextView.text = _selectedItem.descriptionStr;
     
+}
+
+- (IBAction)pushDone:(id)sender {
+    
+    if ([_delegate respondsToSelector:@selector(searchResultsViewController:didPushSearchResultDetail:iconImage:)]) {
+
+        [_delegate searchResultsViewController:self didPushSearchResultDetail:_selectedItem iconImage:[[SDWebImageManager sharedManager].imageCache imageFromDiskCacheForKey:_selectedItem.artworkUrl512]];
+        
+    } else {
+        
+        [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 
