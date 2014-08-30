@@ -9,6 +9,8 @@
 #import "JAGiTunesStoreSearchResultsViewController.h"
 #import "JAGiTunesStoreSearch.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+
 @interface JAGiTunesStoreSearchResultsViewController ()< UISearchBarDelegate >
 
 @property (nonatomic) JAGiTunesStoreFetch *fetch;

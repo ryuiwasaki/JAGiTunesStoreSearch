@@ -8,6 +8,7 @@
 
 #import "JAGTableViewController.h"
 
+
 @class JAGiTunesStoreSearchResultItem;
 @class JAGiTunesStoreSearch;
 @class JAGiTunesStoreSearchResultsNavigationController;
@@ -51,7 +52,6 @@
 @property (nonatomic,copy) void(^didCancelInput)(JAGSearchKeywordsInputViewController *vc);
 
 @end
-
 
 @protocol JAGiTunesStoreSearchResultsNavigationDelegate
 
