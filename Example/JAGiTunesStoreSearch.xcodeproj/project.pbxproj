@@ -12,7 +12,6 @@
 		A869E6B119B1B45A005858C8 /* JAGiTunesStoreSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A869E6AC19B1B45A005858C8 /* JAGiTunesStoreSearch.m */; };
 		A869E6B219B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A869E6AD19B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard */; };
 		A869E6B319B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A869E6AF19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m */; };
-		A869E6B619B1B582005858C8 /* SearchKeywordsInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A869E6B519B1B582005858C8 /* SearchKeywordsInputViewController.m */; };
 		A8826057199C915100B5026B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826056199C915100B5026B /* Foundation.framework */; };
 		A8826059199C915100B5026B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8826058199C915100B5026B /* CoreGraphics.framework */; };
 		A882605B199C915100B5026B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882605A199C915100B5026B /* UIKit.framework */; };
@@ -48,8 +47,6 @@
 		A869E6AD19B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JAGiTunesStoreSearchResult.storyboard; sourceTree = "<group>"; };
 		A869E6AE19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAGiTunesStoreSearchResultsViewController.h; sourceTree = "<group>"; };
 		A869E6AF19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAGiTunesStoreSearchResultsViewController.m; sourceTree = "<group>"; };
-		A869E6B419B1B582005858C8 /* SearchKeywordsInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchKeywordsInputViewController.h; sourceTree = "<group>"; };
-		A869E6B519B1B582005858C8 /* SearchKeywordsInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchKeywordsInputViewController.m; sourceTree = "<group>"; };
 		A8826053199C915100B5026B /* JAGiTunesStoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAGiTunesStoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8826056199C915100B5026B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8826058199C915100B5026B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -105,8 +102,6 @@
 				A869E6AD19B1B45A005858C8 /* JAGiTunesStoreSearchResult.storyboard */,
 				A869E6AE19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.h */,
 				A869E6AF19B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m */,
-				A869E6B419B1B582005858C8 /* SearchKeywordsInputViewController.h */,
-				A869E6B519B1B582005858C8 /* SearchKeywordsInputViewController.m */,
 			);
 			name = Classes;
 			path = ../../Pod/Classes;
@@ -326,7 +321,6 @@
 				A869E6B319B1B45A005858C8 /* JAGiTunesStoreSearchResultsViewController.m in Sources */,
 				A8826063199C915100B5026B /* main.m in Sources */,
 				A882606D199C915100B5026B /* JAGViewController.m in Sources */,
-				A869E6B619B1B582005858C8 /* SearchKeywordsInputViewController.m in Sources */,
 				A869E6B119B1B45A005858C8 /* JAGiTunesStoreSearch.m in Sources */,
 				A8826067199C915100B5026B /* JAGAppDelegate.m in Sources */,
 			);
