@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JAGiTunesStoreSearch"
-  s.version          = "1.0.0"
+  s.version          = "1.0.2"
   s.summary          = "iTunesStoreSearch API for Objective-C."
   s.description  = <<-DESC
                    iTunesStoreSearch API for Objective-C.
